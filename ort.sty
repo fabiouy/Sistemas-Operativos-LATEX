@@ -6,7 +6,9 @@
 \newcommand*{\@materia}{Sistemas Operativos}
 \newcommand*{\docente}[1]{\gdef\@docente{#1}%
 }
-\newcommand*{\@docente}{\texttt{\string\docente} no definido, corregir.}
+\newcommand*{\@docente}{Ing. Ángel Caffa MSC, MBA}
+
+%comentario \texttt{\string\docente}
 
 \renewcommand*{\maketitle}{%
 \begin{titlepage}
@@ -19,7 +21,7 @@
 \vspace{2cm}
 {\Large\@author\unskip\strut\par}
 \vspace{1cm}
-% \Large Docente: \@docente\unskip\strut\par
+ \Large Docente: \@docente\unskip\strut\par
 \vfill
 {\Large Entregado como requisito de la materia \@materia\unskip\strut\par}
 \vfill
